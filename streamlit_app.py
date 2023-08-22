@@ -23,7 +23,7 @@ import time
 # ------------------------------------------------------------
 
 st.set_page_config(
-    page_title="The Dungeon", page_icon="🗡️", initial_sidebar_state="collapsed"
+    page_title="The DragonQuest", page_icon="🗡️", initial_sidebar_state="collapsed"
 )
 
 
@@ -92,7 +92,7 @@ class Character(GameObject):
         :param gold: character's gold count
         :param alive: character's alive status (True or False)
         """
-        base_url = "https://raw.githubusercontent.com/TomJohnH/streamlit-dungeon/main/graphics/other/"
+        base_url = "https://raw.githubusercontent.com//vikasharma005/DragonQuest/main/graphics/other/"
         super().__init__(x, y, file, base_url)
         self.hp = hp
         self.gold = gold
@@ -112,7 +112,7 @@ class InanimateObject(GameObject):
         :param file: filename of the object's image
         :param visible: object's visibility status (True or False)
         """
-        base_url = "https://raw.githubusercontent.com/TomJohnH/streamlit-dungeon/main/graphics/tileset/"
+        base_url = "https://raw.githubusercontent.com//vikasharma005/DragonQuest/main/graphics/tileset/"
         super().__init__(x, y, file, base_url)
         self.visible = visible
 
@@ -414,15 +414,15 @@ with tab1:
         st.image("graphics/other/dungeon_crawler.png")
 
         st.caption(
-            "The Dungeon: a streamlit dungeon crawler game", unsafe_allow_html=True
+            "The DragonQuest: a streamlit DragonQuest crawler game", unsafe_allow_html=True
         )
     with col2:
         intro_text = """
-        Explore the depths of an ancient dungeon in the first streamlit-based dungeon crawler game!
-        Navigate through dangerous traps, defeat fearsome monsters and uncover the secrets of the DuNgeOn.
+        Explore the depths of an ancient DragonQuest in the first streamlit-based DragonQuest crawler game!
+        Navigate through dangerous traps, defeat fearsome monsters and uncover the secrets of the DragonQuest.
         With intuitive controls and beautiful graphics, this game will keep you entertained for hours.
         Experience the thrill of adventure as you progress through levels and uncover powerful treasures.
-        Join the adventure today and become the hero of the dungeon!
+        Join the adventure today and become the hero of the DragonQuest!
         """
         st.write(f'<p style="color:#9c9d9f">{intro_text}</p>', unsafe_allow_html=True)
         audio_file = open("audio/intro.mp3", "rb")
@@ -431,7 +431,7 @@ with tab1:
 
     st.subheader("| Game start")
     st.write(
-        '<p style="color:#9c9d9f">To start the game go to the "start game" tab. Please be sure to switch to <b>dark mode</b> or the custom theme. The Dungeon is meant to be played in the dark! </p>',
+        '<p style="color:#9c9d9f">To start the game go to the "start game" tab. Please be sure to switch to <b>dark mode</b> or the custom theme. The DragonQuest is meant to be played in the dark! </p>',
         unsafe_allow_html=True,
     )
     st.subheader("| Controls")
@@ -441,7 +441,7 @@ with tab1:
     )
     st.subheader("| Github")
     st.write(
-        '<p style="color:#9c9d9f">Create your own dungeon! Visit <a href="https://github.com/TomJohnH/streamlit-dungeon">GitHub</a>. Edit your levels with <a href="https://dungeon-editor.streamlit.app/">The Dungeon editor</a>.</p><br>',
+        '<p style="color:#9c9d9f">Create your own DragonQuest! Visit <a href="https://github.com/TomJohnH/streamlit-DragonQuest">GitHub</a>. Edit your levels with <a href="https://DragonQuest-editor.streamlit.app/">The DragonQuest editor</a>.</p><br>',
         unsafe_allow_html=True,
     )
 
@@ -474,7 +474,7 @@ with tab2:
                 restart_game()
     if st.session_state["end"] == True:
         display_html = st.markdown(
-            "Thank you for playing the demo of The Dungeon. More content coming soom!",
+            "Thank you for playing the demo of The DragonQuest. More content coming soom!",
             unsafe_allow_html=True,
         )
         st.markdown(
@@ -529,7 +529,7 @@ with tab2:
         god_mode = st.checkbox("God mode")
         fly_mode = st.checkbox("Fly mode")
         st.markdown(
-            "<br>Check the level editor<br> [The Dungeon Level Editor](https://dungeon-editor.streamlit.app/)",
+            "<br>Check the level editor<br> [The DragonQuest Level Editor](https://DragonQuest-editor.streamlit.app/)",
             unsafe_allow_html=True,
         )
 
