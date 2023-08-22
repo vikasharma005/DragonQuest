@@ -529,7 +529,7 @@ with tab2:
         god_mode = st.checkbox("God mode")
         fly_mode = st.checkbox("Fly mode")
         st.markdown(
-            "<br>Check the level editor<br> [The DragonQuest Level Editor](https://DragonQuest-editor.streamlit.app/)",
+            "<br>Check the level editor<br> [The DragonQuest Level Editor](https://dragonquesteditor.streamlit.app/)",
             unsafe_allow_html=True,
         )
 
