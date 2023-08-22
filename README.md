@@ -1,47 +1,73 @@
-# Streamlit Dungeon Crawler
+# DragonQuest Streamlit Game App
 
-Explore the depths of an ancient dungeon in the first streamlit-based dungeon crawler game! Navigate through dangerous traps, defeat fearsome monsters and uncover the secrets of the DuNgeOn. With intuitive controls and beautiful graphics, this game will keep you entertained for hours. Experience the thrill of adventure as you progress through levels and uncover powerful treasures. Join the adventure today and become the hero of the dungeon!
+Welcome to DragonQuest, a text-based dungeon crawler game built with Streamlit and Python! Explore the depths of an ancient dungeon, defeat monsters, collect treasures, and conquer the challenges that lie ahead.
 
-## Technical side
+## Preview
 
-Streamlit recalculates whole app in response to user input. This feature can be used to create interactive applications, such as a dungeon crawler game, where the user interacts with the page and the page updates in real-time to reflect the changes.
+Insert a screenshot or GIF of your game in action here.
 
-[dungeon.streamlit.app](https://dungeon.streamlit.app)
+## Features
 
-**Change log:**
+- Navigate through a virtual dungeon.
+- Battle fearsome monsters and earn gold.
+- Collect treasures and uncover secrets.
+- Customize your character's journey.
 
-11.05.2023
-- working on procedurally generated levels
+## Installation
 
-27.04.2023
-- major refactor in progress
+1. Clone the repository:
 
-24.04.2023
-- Level2 beta-tests are now live
+   ```bash
+   git clone https://github.com/YourUsername/DragonQuest-Streamlit-Game.git
+   cd DragonQuest-Streamlit-Game
+   ```
 
-14.04.2023
-- Updated to streamlit 1.21.0
+2. Install the required dependencies:
 
-12.03.2023
-- additional developer options available: god mode and fly mode. God mode gives the player 999 hp, fly mode ignores walls
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-09.03.2023
-- added aggressive monsters - monsters are pursuing the player
-- refactored almost whole code
+3. Run the Streamlit app:
 
-18.02.2023
-- ongoing modularization and code refactoring
+   ```bash
+   streamlit run app.py
+   ```
 
-01.02.2023
-- added intro audio
-- now you can gather gold
+## Technologies Used
 
-31.01.2023
-- new enemy added - mimic
+- [Streamlit](https://streamlit.io)
+- [Python](https://www.python.org)
+- [game_js Component](https://github.com/TomJohnH/streamlit-dungeon/blob/main/game_js.js)
 
-29.01.2023
-- added intro screen
-- added damage mechanics
+## Author
 
-28.01.2023
-- completely new engine - WIP
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+</div>
+
+<h3 align="center">Hi there 👋, I'm Vikas</h3>
+<h4 align="center">Just learning New Skills😀</h4>
+
+<div id="socials" align="center">
+  <a href="https://www.linkedin.com/in/vikas-sharma005">
+    <img src="https://user-images.githubusercontent.com/76098066/186728913-a66ef85f-4644-4e3a-b847-98309c8cff42.svg">
+  </a>
+  <a href="https://www.instagram.com/_thisisvikas">
+    <img src="https://user-images.githubusercontent.com/76098066/186728908-f1a9919a-f4b2-4262-9515-683e77f8aabf.svg">
+  </a>
+  <a href="https://twitter.com/hitechvikas05">
+    <img src="https://user-images.githubusercontent.com/76098066/186728901-a4d90f01-2cdf-45c1-a1b3-73467c3d2698.svg">
+  </a>
+</div>
+
+You can find more about me and my projects on my [GitHub profile](https://github.com/vikasharma005).
+
+
+## Contributing
+
+Contributions are welcome! If you have any bug fixes or improvements, feel free to submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
