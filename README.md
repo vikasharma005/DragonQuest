@@ -4,7 +4,7 @@ Welcome to DragonQuest, a text-based dungeon crawler game built with Streamlit a
 
 ## Preview
 
-Insert a screenshot or GIF of your game in action here.
+[![DragonQuest Preview](https://img.youtube.com/vi/nDD9emhEZhA/0.jpg)](https://www.youtube.com/watch?v=nDD9emhEZhA)
 
 ## Features
 
