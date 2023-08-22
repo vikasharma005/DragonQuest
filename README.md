@@ -31,7 +31,7 @@ Insert a screenshot or GIF of your game in action here.
 3. Run the Streamlit app:
 
    ```bash
-   streamlit run app.py
+   streamlit run streamlit_app.py
    ```
 
 ## Technologies Used
