@@ -18,8 +18,8 @@ Insert a screenshot or GIF of your game in action here.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YourUsername/DragonQuest-Streamlit-Game.git
-   cd DragonQuest-Streamlit-Game
+   git clone https://github.com/vikasharma005/DragonQueste.git
+   cd DragonQuest
    ```
 
 2. Install the required dependencies:
@@ -38,7 +38,6 @@ Insert a screenshot or GIF of your game in action here.
 
 - [Streamlit](https://streamlit.io)
 - [Python](https://www.python.org)
-- [game_js Component](https://github.com/TomJohnH/streamlit-dungeon/blob/main/game_js.js)
 
 ## Author
 
